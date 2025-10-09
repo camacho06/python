@@ -1,0 +1,5 @@
+numero1 = input("introduce un numero: ")
+numero2 = input("introduce otro numero: ")
+division=float(numero1)/float(numero2)
+print("el cociente de la division es: " + str(division))
+print("el resto de la division es: " + str(int(numero1)%int(numero2)))
