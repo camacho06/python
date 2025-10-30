@@ -1,0 +1,5 @@
+nombreproducto = input("Ingrese el nombre del producto : ")
+precioproducto = float(input("Ingrese el precio del producto : "))
+numerounidades = int(input("Ingrese el numero de unidades del producto : "))
+coste = (precioproducto) * (numerounidades)
+print(f"{nombreproducto} - {precioproducto:08.2f} euros - {numerounidades:03d} unidades - Coste total: {coste:08.2f} euros")
